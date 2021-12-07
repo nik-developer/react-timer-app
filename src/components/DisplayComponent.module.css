@@ -1,0 +1,35 @@
+.mainSection {
+    background: transparent;
+    max-width: 600px;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+  }
+  
+  .clock-holder {
+    width: 100%;
+    background: #fff;
+    margin: 30px auto;
+    position: relative;
+  }
+  
+  .stopwatch span {
+    background: #00ABA9;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70px;
+  }
+  
+  .stopwatch .stopwatch-btn {
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 5px;
+    padding: 12px 20px;
+    width: 150px;
+    border: none;
+    transition: background 1s;
+    cursor: pointer;
+  }
